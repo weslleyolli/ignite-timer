@@ -3,22 +3,26 @@
 @tailwind utilities;
 
 body {
-    background-color: #333;
+    @apply bg-gray900 text-gray300
+}
 
+:focus {
+    outline: 0;
+    box-shadow: 0 0 0 2px (#00875F);
+}
+
+body, input, textarea, button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
 }
 
 button {
-    background-color: black;
-    color: #FFFFFF;
-    padding: 8px 16px;
-    border: 1px solid black;
-    border-radius: 4px;
-    font-size: 14px;
-    margin-right: 10px;
+    @apply bg-green500 text-white px-12 py-2 border border-black text-xl mr-2 rounded-md
 }
 
 .primary {
-    color: purple;
+    color: #fff;
 }
 
 .secondary {
