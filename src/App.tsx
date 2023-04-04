@@ -1,10 +1,16 @@
-
+import { Button } from "./components/Button"
+import "./styles/global.css"
 
 export function App() {
 
   return (
-    <div className="App">
-    </div>
+    <>
+      <Button color="primary" />
+      <Button color="secondary" />
+      <Button color="success" />
+      <Button color="danger" />
+      <Button />
+    </>
   )
 }
 
