@@ -7,11 +7,12 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "lint": "eslint src --ext .ts,.tsx"
+    "lintfix": "npx eslint src --ext .ts,.tsx --fix"
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.10.0"
   },
   "devDependencies": {
     "@rocketseat/eslint-config": "^1.2.0",

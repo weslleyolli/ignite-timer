@@ -1,14 +1,11 @@
-import { Button } from './components/Button'
+import { Router } from './Router'
+import { BrowserRouter } from 'react-router-dom'
 import './styles/global.css'
 
 export function App() {
   return (
-    <>
-      <Button />
-      <Button />
-      <Button />
-      <Button />
-      <Button />
-    </>
+    <BrowserRouter>
+      <Router />
+    </BrowserRouter>
   )
 }
