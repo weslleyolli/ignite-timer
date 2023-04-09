@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-    @apply bg-gray900 text-gray300
+    @apply h-screen w-full
 }
 
 :focus {
