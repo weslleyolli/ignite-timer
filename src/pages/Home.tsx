@@ -24,7 +24,11 @@ export function Home() {
           <span>0</span>
         </div>
 
-        <button type="submit">
+        <button
+          type="submit"
+          className="w-full p-4 rounded-lg flex items-center justify-center gap-2 font-bold bg-green500 text-gray100 cursor-pointer hover:bg-green700 "
+          disabled
+        >
           <Play size={24} />
           Start
         </button>

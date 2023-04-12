@@ -25,7 +25,4 @@ body, input, textarea, button {
     font-size: 1rem;
 }
 
-button {
-    @apply bg-green500 text-white px-12 py-2 border border-black text-xl mr-2 rounded-md mt-2
-}
 
