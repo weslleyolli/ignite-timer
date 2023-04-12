@@ -25,4 +25,10 @@ body, input, textarea, button {
     font-size: 1rem;
 }
 
+th {
+    @apply bg-gray600 p-4 text-left text-gray100 text-sm
+}
 
+td {
+    @apply bg-gray700 border-t-4 border-gray800 p-4 text-sm text-gray300 first:pl-6 first:w-1/2 last:pr-6
+}
