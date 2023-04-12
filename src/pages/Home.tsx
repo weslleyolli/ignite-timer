@@ -6,10 +6,19 @@ export function Home() {
       <form action="" className="flex flex-col items-center gap-14">
         <div className="w-full flex items-center justify-center gap-2 text-gray100 text-lg font-bold flex-wrap">
           <label htmlFor="task">I will work in</label>
-          <input id="task" />
+          <input
+            id="task"
+            placeholder="name your project"
+            className="bg-transparent h-10 border-b-2 text-center border-gray500 font-bold text-lg text-gray100 flex-1 focus:border-green500"
+          />
 
           <label htmlFor="">for</label>
-          <input type="number" id="minutesAmount" />
+          <input
+            type="number"
+            id="minutesAmount"
+            placeholder="00"
+            className="bg-transparent h-10 w-16 border-b-2 text-center border-gray500 font-bold text-lg text-gray100 focus:border-green500"
+          />
 
           <p>minutes.</p>
         </div>
@@ -26,7 +35,7 @@ export function Home() {
 
         <button
           type="submit"
-          className="w-full p-4 rounded-lg flex items-center justify-center gap-2 font-bold bg-green500 text-gray100 cursor-pointer hover:bg-green700 "
+          className="w-full p-4 rounded-lg flex items-center justify-center gap-2 font-bold bg-green500 text-gray100 hover:bg-green700 disabled:opacity-70 cursor-not-allowed "
           disabled
         >
           <Play size={24} />
