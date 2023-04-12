@@ -10,6 +10,10 @@ a {
     @apply w-12 h-12 flex justify-center items-center text-gray100 border-t-4 border-b-4 border-transparent hover:border-b-green500 active:text-green500
 }
 
+span {
+    @apply bg-gray700 px-4 py-10 rounded-lg text-white
+}
+
 :focus {
     outline: 0;
     box-shadow: 0 0 0 2px (#00875F);
