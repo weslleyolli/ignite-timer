@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-    @apply h-screen w-full
+    @apply h-screen w-full bg-gray500
 }
 
 a {
@@ -29,18 +29,3 @@ button {
     @apply bg-green500 text-white px-12 py-2 border border-black text-xl mr-2 rounded-md mt-2
 }
 
-.primary {
-    color: #fff;
-}
-
-.secondary {
-    color: orange;
-}
-
-.danger {
-    color: red;
-}
-
-.success {
-    color: green;
-}
