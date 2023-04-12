@@ -9,8 +9,15 @@ export function Home() {
           <input
             id="task"
             placeholder="name your project"
-            className="bg-transparent h-10 border-b-2 text-center border-gray500 font-bold text-lg text-gray100 flex-1 focus:border-green500"
+            className=" bg-transparent h-10 border-b-2 text-center border-gray500 font-bold text-lg text-gray100 flex-1 focus:border-green500 "
+            autoComplete="off"
+            list="task-suggestion"
           />
+
+          <datalist id="task-suggestion">
+            <option value="Project 1" />
+            <option value="Project 2" />
+          </datalist>
 
           <label htmlFor="">for</label>
           <input
@@ -18,6 +25,9 @@ export function Home() {
             id="minutesAmount"
             placeholder="00"
             className="bg-transparent h-10 w-16 border-b-2 text-center border-gray500 font-bold text-lg text-gray100 focus:border-green500"
+            step={15}
+            min={15}
+            max={60}
           />
 
           <p>minutes.</p>
