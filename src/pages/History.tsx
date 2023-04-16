@@ -1,9 +1,9 @@
 export function History() {
   return (
-    <div className="flex-1 p-14 flex flex-col">
+    <div className="flex-1 mt-4 flex flex-col">
       <h1 className="text-2xl text-gray100 font-extrabold">My history</h1>
 
-      <div className="flex-1 overflow-auto mt-8">
+      <div className="flex-1 overflow-auto mt-4">
         <table className="w-full border-collapse ">
           <thead>
             <tr>
