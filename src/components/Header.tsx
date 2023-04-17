@@ -4,9 +4,9 @@ import { Timer, Scroll } from 'phosphor-react'
 
 export function Header() {
   return (
-    <div className="text-white font-bold text-3xl flex items-center justify-between">
+    <div>
       <img src={logoIgnite} alt="" />
-      <nav className="flex gap-2">
+      <nav>
         <NavLink to="/" title="Timer">
           <Timer size={24} />
         </NavLink>
