@@ -30,5 +30,5 @@ th {
 }
 
 td {
-    @apply bg-gray700 border-t-4 border-gray800 p-4 text-sm text-gray300 first:pl-6 first:w-1/2 last:pr-6
+    @apply bg-gray700 border-t-4 border-gray800 p-6 text-sm text-gray300 first:pl-6 first:w-1/2 last:pr-6
 }
